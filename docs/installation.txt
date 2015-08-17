@@ -1,0 +1,15 @@
+database
+TAM
+
+tamquery
+pw: tam
+
+tamadmin
+pw:tam
+
+CMS:
+tamuseum
+
+PW:
+Airport1
+

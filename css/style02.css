@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('../fonts/Cabin-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+	letter-spacing: normal;
+
+}
+
+body{
+	background-color: #dedede;
+	font-family: Cabin, Arial, Helvetica, sans-serif;
+}
+
+a{
+	text-decoration:none;
+}
+
+#container{
+	margin: 0 auto;
+}
+
+#container, #header{
+	width:960px;
+}
+
+#content{
+	clear:both;
+}
+#nav{
+	margin-left:-75px;
+	margin-top: -25px;
+
+}
+#header{
+	text-align:center;
+}
+.linkBox{
+	width:168px;
+	float:left;
+	padding:20px;
+	padding-right:0px;
+	padding-left:30px;
+}
+
+#nav h3, #navAdmin h3{
+	font-size:18px;
+	padding-bottom: 15px;
+	border-bottom: 2px #2e5894 solid;
+}
+
+#nav li, #navAdmin li{
+	font-size:12px;
+	color: #555;
+	list-style: none;
+	text-align: left;
+	
+}
+
+.drop li{
+	display:block;
+	margin-left:-40px;
+	width:168px;
+	padding: 5px;
+	padding-right:0px;
+	background-color:#2e5894;
+	border-bottom: 1px #555 solid;	
+}
+
+.drop{
+	border: 1px #555 solid;
+	width:132px;
+	border-bottom:none;
+}
+
+.drop li a{
+	text-decoration: none;
+	color: #fff;
+
+	
+	
+	
+}
+
+.drop li:hover{
+	background-color: #6e89b2;
+	/*padding: 5px;*/
+
+	
+	
+}
+
+
+
+/*///////////////HOME////////////////*/
+
+.slide{
+	width: 950px;
+	height: 385px;
+	background-color: #999;
+	clear: both;
+}
+
+.colContainer{
+	margin-top:-10px;
+	padding: 30px;
+	background-color: #2e5894;
+	color:#fff;
+	padding-right:0;
+	overflow: hidden;
+	
+}
+
+.col{
+	width:450px;
+	height:120px;
+	float: left;
+	padding: 20px;
+	padding-left:0;
+	border-right: 1px #fff solid;
+	
+}
+
+.col2{
+	
+	width: 300px;
+	font-size: 12px;
+	float:left;
+	margin-left: 50px;
+}
+.col2 h1{
+	font-size:50px;
+	width: 150px; 
+	float: left;
+}
+
+.col2 p{
+	margin-top: 30px;
+}
+
+/*///////////FOOTER//////////////*/
+#footer{
+	text-align: center;
+	color:#555;
+	clear:both;
+
+}
+
+
+/*/////////MISC/////////*/
+
+#map{
+	width: 400px;
+	height:300px;
+	background-color: #999;
+	border: #555 1px solid;
+
+}
+
+#contactForm{
+	background-color:#999;
+	height:600px;
+	width:750px;
+	border-right: 1px #555 solid;
+	float: left;
+}
+
+.sideBar{
+	width: 175px;
+	padding:15px;
+	float: left;
+}
+
+.map{
+	width: 640px;
+	float: left;
+	margin-right: 30px;
+}
+
+.eventDisp h2, .eventDisp2 h2{
+	margin-bottom:10px;
+	margin-top:0px;
+	color: #2e5894;
+
+}
+
+.eventDisp h3, .eventDisp h3{
+	margin-bottom:10px;
+	margin-top:0px;
+}
+
+.gen{
+	width: 200px;
+	float:left;
+}
+.eventDesc{
+	width: 100px;
+	float: left;
+	
+}
+.eventDisp{
+	width: 430px;
+	height:200px;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #2e5894;
+}
+
+.add{
+	float: left;
+	width: 150px;
+}
+
+.donButton, .otherWays{
+width: 300px;
+float:left;
+margin-right: 15px;
+height:215px;
+margin-top:10px;
+}
+
+.otherWays{
+	margin-left:100px;
+	margin-top: -240px;
+}
+
+#donate h6{
+	width:540px;
+	float:left;
+
+	}
+#volunteer{
+	clear: both;
+}
+
+.vid{
+	width: 450px;
+	margin-right: 30px;
+	float: left;
+}
+
+
+
+/*//////////ADMIN///////////*/
+#loginWrap, #wrap{
+	width: 350px;
+	height:200px;
+	
+	border: 2px solid #2e5894;
+	padding:20px;
+	padding-top:0;
+	float: left;
+}
+
+#wrap{
+	border:none;
+	padding:0;
+	height: 270px;
+	width: 400px;
+	margin-right:50px;
+}
+
+.login{
+	width: 200px;
+	margin: 0 auto;
+}
+
+.logButton{
+	float:right;
+	margin-bottom:20px;
+}
+
+.dropAdmin li{
+	display:block;
+	margin-left:-40px;
+	width:193px;
+	padding: 5px;
+	padding-right:0px;
+	background-color:#2e5894;
+	border-bottom: 1px #555 solid;	
+}
+
+.dropAdmin{
+	border: 1px #555 solid;
+	width:157px;
+	border-bottom:none;
+	margin-top:-15px;
+}
+
+.dropAdmin li a{
+	text-decoration: none;
+	color: #fff;
+	font-size:18px;
+
+	
+	
+	
+}
+
+.dropAdmin li:hover{
+	background-color: #6e89b2;
+	/*padding: 5px;*/
+
+	
+	
+}
+
+.linkBox2{
+	width: 200px;
+	height: 50px;
+}
+#headerAdmin{
+	width:250px;
+	float:left;
+	height: 400px;
+	margin-right:100px;
+	position:fixed;
+}
+
+
+#navAdmin{
+	margin-left:20px;
+}
+
+#contentAdmin{
+	width: 560px;
+	float: left;
+	margin-top: 100px;
+	margin-left:375px;
+}
+
+#footerAdmin{
+	clear: both;
+	margin-top: 20px;
+}
+
+.buttons{
+	clear:both;
+	text-align:right;
+	width:600px;
+}
+
+.buttons a{
+	color: #2e5894;
+	font-weight:bold; 
+}
+
+.buttons a:hover{
+	color: #555; 
+}
+
+.eventDisp2{
+	width: 600px;
+	height:200px;
+	
+	margin-right: 50px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #2e5894;
+}
+
+ui-datepicker-div{
+	top: 400px;
+}
+
